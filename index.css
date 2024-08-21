@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Exo 2", sans-serif;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+button {
+    background-color: #FFF100;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+h2 {
+    margin: 10px;
+}
+
+#new-deck {
+    align-self: flex-start;
+    padding: 10px;
+}
+
+#remaining{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.draw {
+    font-size: 1.2em;
+    padding: 5px;
+    align-self: stretch;
+}
+
+.card-slot {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 150px;
+    width: calc(150px * 5 / 7);
+}
+
+.card-slot:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+
+
